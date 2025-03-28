@@ -22,6 +22,7 @@
   "homepage": "https://github.com/ivanicksantos/personalDemoTS#readme",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.13.14",
     "@vitejs/plugin-vue": "^5.2.3",
     "typescript": "^5.8.2",
     "vite": "^6.2.3",
