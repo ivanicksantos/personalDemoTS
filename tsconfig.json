@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ], // Include all .ts files in the src folder
+  "exclude": [
+    "src/**/__docs__",
+    "src/test"
+  ] // Exclude specific folders
+}
